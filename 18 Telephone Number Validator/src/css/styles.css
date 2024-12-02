@@ -1,0 +1,88 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+	font-family: 'Arial', sans-serif;
+	background: linear-gradient(135deg, #74ebd5, #acb6e5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	color: #333;
+}
+
+
+.container {
+	background-color: #fff;
+	padding: 2rem;
+	border-radius: 10px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	width: 400px;
+}
+
+h1 {
+	font-size: 1.8rem;
+	margin-bottom: 1rem;
+	color: #4a4a4a;
+}
+
+
+input {
+	width: 100%;
+	padding: 0.8rem;
+	margin-bottom: 1rem;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	font-size: 1rem;
+	outline: none;
+	transition: all 0.3s ease;
+}
+
+input:focus {
+	border-color: #74c1e5;
+	box-shadow: 0 0 5px rgba(116, 193, 229, 0.5);
+}
+
+
+button {
+	width: calc(50% - 0.5rem);
+	padding: 0.8rem;
+	margin: 0.25rem;
+	font-size: 1rem;
+	font-weight: bold;
+	color: #fff;
+	background: #74c1e5;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+button:hover {
+	background: #4a9ccf;
+}
+
+button#clear-btn {
+	background: #f27b79;
+}
+
+button#clear-btn:hover {
+	background: #d95e5c;
+}
+
+#results-div {
+	margin-top: 1rem;
+	padding: 0.8rem;
+	border-radius: 5px;
+	font-size: 1rem;
+	font-weight: bold;
+	background: #e7f5ff;
+	color: #4a4a4a;
+	display: inline-block;
+	width: 100%;
+}
